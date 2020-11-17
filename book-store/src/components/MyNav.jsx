@@ -10,7 +10,7 @@ import {
 
 const MyNav = () => {
   return (
-    <Navbar variant="warning" bg="warning" expand="lg">
+    <Navbar variant="light" bg="warning" expand="lg">
       <Navbar.Brand href="#home">Book Strap</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
