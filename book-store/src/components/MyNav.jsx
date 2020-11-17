@@ -7,11 +7,14 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
+import logo from "../logo.png";
 
 const MyNav = () => {
   return (
     <Navbar variant="light" bg="warning" expand="lg">
-      <Navbar.Brand href="#home">Book Strap</Navbar.Brand>
+      <Navbar.Brand href="#home">
+        <img src={logo} width={30} alt="logo" /> Book Strap
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
