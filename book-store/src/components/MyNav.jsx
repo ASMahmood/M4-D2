@@ -11,7 +11,7 @@ import logo from "../logo.png";
 
 const MyNav = () => {
   return (
-    <Navbar variant="light" bg="warning" expand="lg">
+    <Navbar variant="dark" bg="dark" expand="lg">
       <Navbar.Brand href="#home">
         <img src={logo} width={30} alt="logo" /> Book Strap
       </Navbar.Brand>
@@ -31,7 +31,7 @@ const MyNav = () => {
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-dark">Search</Button>
+          <Button variant="outline-warning">Search</Button>
         </Form>
       </Navbar.Collapse>
     </Navbar>
