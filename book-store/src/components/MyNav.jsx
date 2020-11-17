@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Navbar,
-  Nav,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-} from "react-bootstrap";
+import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap";
 import logo from "../logo.png";
 
 const MyNav = () => {
@@ -21,13 +14,6 @@ const MyNav = () => {
           <Nav.Link href="#">Home</Nav.Link>
           <Nav.Link href="#">About</Nav.Link>
           <Nav.Link href="#">Browse</Nav.Link>
-          <NavDropdown title="Genres" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Fantasy</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">History</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Horror</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.4">Romance</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.5">Sci-Fi</NavDropdown.Item>
-          </NavDropdown>
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
