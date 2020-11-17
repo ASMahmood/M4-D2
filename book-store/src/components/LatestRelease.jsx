@@ -19,6 +19,7 @@ class LatestRelease extends React.Component {
         <Row>
           <Col>
             <h1>Latest Releases: {this.state.genre[0].category}</h1>
+            <hr />
             <Dropdown>
               <Dropdown.Toggle variant="secondary" id="dropdown-basic">
                 Genres
@@ -63,7 +64,7 @@ class LatestRelease extends React.Component {
           {this.state.genre.map((item) => (
             <Card className="my-3" style={{ width: "16rem" }} key={item.asin}>
               <Card.Img variant="top" height={380} src={item.img} />
-              <Card.Body>
+              <Card.Body className="d-none">
                 <Card.Title>{item.title}</Card.Title>
                 <Card.Text className="d-flex justify-content-around">
                   <span>{item.category}</span>
